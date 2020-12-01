@@ -1,0 +1,121 @@
+<style>
+
+/*** TEMPLATE AND CODE BY LUA***/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap') 
+
+.stafftemplate {
+  width: 480px;
+  margin: 25px auto;
+  font: 11px 'Roboto', sans-serif;
+}
+
+.staffbox {
+  width: 480px;
+  height: auto;
+  background: #111;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px 10px 10px 10px;
+  background-image: url("https://i.ibb.co/f063gLW/grungewall50-1.png");
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  overflow: auto;
+}
+
+.staffinner {
+  height: auto;
+  width: auto;
+  padding: 15px;
+  box-sizing: border-box;
+  color: #2E2E2E;
+  text-align: justify;
+}
+
+.staffinner h1 {
+  margin: 0 0 15px;
+  font-family: 'Roboto';
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #424242;
+  text-align: left;
+  font-style: italic;
+  font-size: 50px;
+  line-height: 75%;
+  padding-bottom: 5px;
+  border-bottom: 3px solid;
+  transition: 0.25s;
+  position: static;
+}
+
+.staffinner h2 {
+  margin: 0px 0px 10px 0px;
+  font-family: 'Roboto';
+  letter-spacing: 2px;
+  color: #424242;
+  text-align: left;
+  font-style: italic;
+  font-size: 13px;
+  line-height: 75%;
+  border-bottom: hidden;
+  transition: 0.75s;
+}
+
+.staffinner ul {
+  margin: 0;
+  padding: 0 0 0 15px;
+}
+
+.staffinner a {
+  height: 150px;
+  width: 150px;
+  border: #bc4556 5px solid;
+  border-radius: 50%;
+  background-color: #eee;
+  float: top;
+  overflow: hidden;
+}
+
+.icon {
+  height: 100px;
+  width: 100px;
+  border: solid;
+  border-color: #424242;
+  border-radius: 100%;
+  margin-top: 5px;
+  margin-right: -20px;
+  padding-right: -50px;
+  background-image: var(--stafficon);
+  position:sticky;
+  overflow:hidden;
+  z-index:0;
+  float: right;
+  clear: right;
+
+}
+
+.staffinner li {
+  margin: 0 0 5px;
+  list-style-type: none;
+}
+
+.staff-inner li::before {
+  color: #424242;
+  display: block;
+  float: left;
+  left: 0;
+  top: 0;
+  padding: 0 10px 0 0;
+  margin: 0 0 0 -10px;
+}
+
+.staffinner b {
+  color: #2A1616;
+  font-family: 'Roboto';
+  font-weight: 900px;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+</style>
