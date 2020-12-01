@@ -3,13 +3,13 @@
 /*** TEMPLATE AND CODE BY LUA***/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap') 
 
-.stafftemplate {
+.membertemplate {
   width: 480px;
   margin: 25px auto;
   font: 11px 'Roboto', sans-serif;
 }
 
-.staffbox {
+.memberbox {
   width: 480px;
   height: auto;
   background: #111;
@@ -24,7 +24,7 @@
   overflow: auto;
 }
 
-.staffinner {
+.memberinner {
   height: auto;
   width: auto;
   padding: 15px;
@@ -33,7 +33,7 @@
   text-align: justify;
 }
 
-.staffinner h1 {
+.memberinner h1 {
   margin: 0 0 15px;
   font-family: 'Roboto';
   font-weight: 900;
@@ -49,7 +49,7 @@
   position: static;
 }
 
-.staffinner h2 {
+.memberinner h2 {
   margin: 0px 0px 10px 0px;
   font-family: 'Roboto';
   letter-spacing: 2px;
@@ -62,22 +62,12 @@
   transition: 0.75s;
 }
 
-.staffinner ul {
+.memebrinner ul {
   margin: 0;
   padding: 0 0 0 15px;
 }
 
-.staffinner a {
-  height: 150px;
-  width: 150px;
-  border: #bc4556 5px solid;
-  border-radius: 50%;
-  background-color: #eee;
-  float: top;
-  overflow: hidden;
-}
-
-.icon {
+.membericon {
   height: 100px;
   width: 100px;
   border: solid;
@@ -95,12 +85,12 @@
 
 }
 
-.staffinner li {
+.memberinner li {
   margin: 0 0 5px;
   list-style-type: none;
 }
 
-.staff-inner li::before {
+.memebrinner li::before {
   color: #424242;
   display: block;
   float: left;
@@ -110,7 +100,7 @@
   margin: 0 0 0 -10px;
 }
 
-.staffinner b {
+.memberinner b {
   color: #2A1616;
   font-family: 'Roboto';
   font-weight: 900px;
