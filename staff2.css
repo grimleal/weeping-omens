@@ -48,7 +48,6 @@
   transition: 0.25s;
   position: static;
 }
-
 .staffinner h2 {
   margin: 0px 0px 10px 0px;
   font-family: 'Roboto';
@@ -61,7 +60,11 @@
   border-bottom: hidden;
   transition: 0.75s;
 }
-
+.staffinner h1,
+.staffinner h2 {
+   padding: 0 20px 0 0; 
+  transition: 0.75s;
+}
 .staffinner ul {
   margin: 0;
   padding: 0 0 0 15px;
