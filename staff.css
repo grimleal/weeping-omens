@@ -1,6 +1,8 @@
 <style>
 /*** TEMPLATE AND CODE BY LUA***/
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap') .stafftemplate {
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap') 
+      
+    .stafftemplate {
     width: 450px;
     margin: 25px auto;
     font: 11px 'Roboto', sans-serif;
