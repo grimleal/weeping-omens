@@ -2,7 +2,7 @@
 
     .postimg {
       border: 1px solid var(--postcolor);
-      border-radius: 5px
+      border-radius: 5px;
       border-bottom: hidden;
       background-color: #eee;
       width: 429px;
