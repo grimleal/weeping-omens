@@ -109,14 +109,12 @@ font-weight: 900;
     padding-top:5px;
     padding-bottom:5px;
     line-height: 99%;
-      transition: 0.75s;
        border-top: solid;
        border-left: hidden;
        border-right: hidden;
        border-bottom: solid;
   border-width: 1.5px;
 }
-.ludensinside h4:hover,
 .ludensinside h1:hover {
   padding: 0 20px 0 0;
   color: #BB0000;
