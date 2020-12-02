@@ -1,118 +1,50 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">   
+   .postBG {
+     border-radius: 10px 10px 10px 10px;
+     width: 500px;
+     height: 350px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+   }
 
-/*** TEMPLATE AND CODE BY LUA***/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap') 
+   .postbody {
+     height: 299px;
+     width: 250px;
+     background-image: url('https://files.jcink.net/uploads/wrentest/bg/grungewall50.png');
+     border: solid;
+     border-color: var(--postcolor);
+     border-radius: 5px 0px 5px 5px;
+     border-width: 3px;
+     padding-top: 20px;
+     padding-right: 30px;
+     padding-bottom: 30px;
+     padding-left: 30px;
+     font-family: 'Roboto';
+     font-size: 13px;
+     text-align: justify;
+     line-height: 13px;
+     margin-left: 85px;
+     overflow: auto;
+     top: 50px;
+     float: left;
+     position: absolute;
+   }
+   .postbody b{
+     font-family: 'Roboto';
+     font-size: 16px;
+     font-weight: 900;
+          color: var(--postcolor);
+   }
 
-.membertemplate {
-  width: 480px;
-  margin: 25px auto;
-  font: 11px 'Roboto', sans-serif;
-}
-
-.memberbox {
-  width: 480px;
-  height: auto;
-  background: #111;
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 10px 10px 10px 10px;
-  background-image: url("https://i.ibb.co/f063gLW/grungewall50-1.png");
-  padding-top: 5px;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-bottom: 5px;
-  overflow: auto;
-}
-
-.memberinner {
-  height: auto;
-  width: auto;
-  padding: 15px;
-  box-sizing: border-box;
-  color: #2E2E2E;
-  text-align: justify;
-}
-
-.memberinner h1 {
-  margin: 0 0 15px;
-  font-family: 'Roboto';
-  font-weight: 900;
-  letter-spacing: 2px;
-  color: #424242;
-  text-align: left;
-  font-style: italic;
-  font-size: 50px;
-  line-height: 75%;
-  padding-bottom: 5px;
-  border-bottom: 3px solid;
-  transition: 0.25s;
-  position: static;
-}
-
-.memberinner h2 {
-  margin: 0px 0px 10px 0px;
-  font-family: 'Roboto';
-  letter-spacing: 2px;
-  color: #424242;
-  text-align: left;
-  font-style: italic;
-  font-size: 13px;
-  line-height: 75%;
-  border-bottom: hidden;
-  transition: 0.75s;
-}
-
-.memberinner ul {
-  margin: 0;
-  padding: 0 0 0 15px;
-}
-
-.memebrinner a {
-  height: 150px;
-  width: 150px;
-  border: #bc4556 5px solid;
-  border-radius: 50%;
-  background-color: #eee;
-  float: top;
-  overflow: hidden;
-}
-
-.membericon {
-  height: 100px;
-  width: 100px;
-  border: solid;
-  border-color: #424242;
-  border-radius: 100%;
-  margin-top: 5px;
-  margin-right: -20px;
-  padding-right: -50px;
-  background-image: var(--stafficon);
-  position:sticky;
-  overflow:hidden;
-  z-index:0;
-  float: right;
-  clear: right;
-
-}
-
-.memberinner li {
-  margin: 0 0 5px;
-  list-style-type: none;
-}
-
-.memberinner li::before {
-  color: #424242;
-  display: block;
-  float: left;
-  left: 0;
-  top: 0;
-  padding: 0 10px 0 0;
-  margin: 0 0 0 -10px;
-}
-
-.memberinner b {
-  color: #2A1616;
-  font-family: 'Roboto';
-  font-weight: 900px;
-  letter-spacing: 1px;
-  font-size: 15px;
-}
+   .postimg {
+     border: 3px solid var(--postcolor);
+     border-radius: 5px 5px 5px 5px;
+     margin-left: 400px;
+     width: 198px;
+     height: 349px;
+     position: absolute;
+     float: center;
+     top: 50px;
+     overflow: hidden;
+   }
