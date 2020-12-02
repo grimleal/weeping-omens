@@ -38,6 +38,7 @@
    }
 
    .postimg {
+     background: #000
      border: 3px solid var(--postcolor);
      border-radius: 0px 5px 5px 0px;
      margin-left: 400px;
