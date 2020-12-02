@@ -1,0 +1,50 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">   
+   .postBG {
+     border-radius: 10px 10px 10px 10px;
+     width: 500px;
+     height: 350px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+   }
+
+   .postbody {
+     height: 299px;
+     width: 250px;
+     background-image: url('https://files.jcink.net/uploads/wrentest/bg/grungewall50.png');
+     border: solid;
+     border-color: var(--postcolor);
+     border-radius: 5px 0px 5px 5px;
+     border-width: 3px;
+     padding-top: 20px;
+     padding-right: 30px;
+     padding-bottom: 30px;
+     padding-left: 30px;
+     font-family: 'Roboto';
+     font-size: 13px;
+     text-align: justify;
+     line-height: 13px;
+     margin-left: 85px;
+     overflow: auto;
+     top: 50px;
+     float: left;
+     position: absolute;
+   }
+   .postbody b{
+     font-family: 'Roboto';
+     font-size: 16px;
+     font-weight: 900;
+          color: var(--postcolor);
+   }
+
+   .postimg {
+     border: 3px solid var(--postcolor);
+     border-radius: 5px 5px 5px 5px;
+     margin-left: 400px;
+     width: 198px;
+     height: 349px;
+     position: absolute;
+     float: center;
+     top: 50px;
+     overflow: hidden;
+   }
