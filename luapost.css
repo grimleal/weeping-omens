@@ -4,7 +4,7 @@
       border: 1px solid var(--postcolor);
       border-radius: 5px 5px 0px 0px;
       border-bottom: hidden;
-        border-width:5px;
+        border-width:3px;
       background-color: #eee;
       width: 429px;
       height: 150px;
@@ -20,13 +20,12 @@
       padding-left: 10px;
       background-color: #c2c2c2;
       border-radius: 0px 0px 5px 5px;
-        border-width: 5px;
       border-right: solid;
       border-left: solid;
       border-bottom: solid;
       border-top: hidden;
       border-color: var(--postcolor);
-      border-width: 1px;
+      border-width: 3px;
       font-family: 'Roboto';
       font-weight: 300;
       font-size: 13px;
