@@ -1,3 +1,4 @@
+[dohtml]<center><style>
 /***CODE AND TEMPLATE BY LUA***/
 
     .postimg {
@@ -16,7 +17,7 @@
       width: 380px;
       height: 350px;
       padding-top: 15px;
-      padding-right: 25px;
+      padding-right: 24px;
       padding-left: 25px;
       padding-bottom: 15px;
       background-color: #c2c2c2;
