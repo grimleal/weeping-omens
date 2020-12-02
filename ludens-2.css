@@ -44,7 +44,7 @@
   padding-top: 15px;
   padding-right: 0px;
   padding-left: 0px;
-  padding-bottom: 5px;
+  padding-bottom: 1px;
   box-sizing: border-box;
   color: #2E2E2E;
   text-align: justify;
@@ -108,13 +108,14 @@ font-weight: 900;
     font-weight: 900;
     padding-top:5px;
     padding-bottom:5px;
-    border-radius: 0px 5px;
+    border-radius: 0px 0px;
     line-height: 99%;
-       border-top: solid;
+       border-top: hidden;
        border-left: hidden;
-       border-right: solid;
+       border-right: hidden;
        border-bottom: hidden;
   border-width: 1.5px;
+  padding-top: 10px;
 }
 .ludensinside h1:hover {
   padding: 0 20px 0 0;
