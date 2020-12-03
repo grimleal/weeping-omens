@@ -1,0 +1,50 @@
+/***CODE AND TEMPLATE BY LUA***/
+
+.weepBG {
+  height: 500px;
+  width: 650px;
+  
+}
+
+.weepIMG {
+  height: 393px;
+  margin-left: 85px;
+  border-width: 5px;
+  color: #A7EA7E;
+  border-radius: 5px 0px 0px 5px;
+  border-top: solid;
+  border-right: hidden;
+  border-left: solid;
+  border-bottom: solid;
+  width: 200px;
+  float: left;
+  overflow: hidden;
+}
+
+.weepbody {
+  height: 360px;
+  width: 300px;
+margin-right: 80px;
+  overflow: auto;
+  padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #eee;
+  background-image: url('https://i.ibb.co/f063gLW/grungewall50-1.png');
+  border-radius: 0px 5px 0px 0px;
+  border-width: 5px;
+  border-color: #A7EA7E;
+  border-style: solid;
+  font-family: 'Roboto';
+  font-size: 13px;
+  float:center;
+  text-align: justify;
+  line-height: 13px;
+  overflow: auto;
+}
+
+.weepbody b {
+  color: #A7EA7E;
+  font-size: 15px;
+  font-weight: 900;
+}
