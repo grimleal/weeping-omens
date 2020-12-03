@@ -1,0 +1,47 @@
+.weepBG {
+  height: 450px;
+  width: 500px;
+}
+
+.weepIMG {
+  height: 393px;
+  margin-left: 10px;
+  border-width: 3px;
+  color: var(--postcolor);
+  border-radius: 5px 0px 0px 5px;
+  border-top: solid;
+  border-right: hidden;
+  border-left: solid;
+  border-bottom: solid;
+  width: 200px;
+  float: left;
+  overflow: hidden;
+}
+
+.weepbody {
+  height: 363px;
+  width: 250px;
+margin-right: 0px;
+  overflow: auto;
+  padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #eee;
+  background-image: url('https://i.ibb.co/f063gLW/grungewall50-1.png');
+  border-radius: 0px 5px 0px 0px;
+  border-width: 3px;
+  border-color: var(--postcolor);
+  border-style: solid;
+  font-family: 'Roboto';
+  font-size: 13px;
+  float:center;
+  text-align: justify;
+  line-height: 13px;
+  overflow: auto;
+}
+
+.weepbody b {
+  color: var(--postcolor);
+  font-size: 15px;
+  font-weight: 900;
+}
