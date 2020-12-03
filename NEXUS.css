@@ -20,7 +20,7 @@
 
 .weepbody {
   height: 363px;
-  width: 300px;
+  width: 250px;
 margin-right: 80px;
   overflow: auto;
   padding: 15px;
@@ -30,7 +30,7 @@ margin-right: 80px;
   background-image: url('https://i.ibb.co/f063gLW/grungewall50-1.png');
   border-radius: 0px 5px 0px 0px;
   border-width: 3px;
-  border-color: #A7EA7E;
+  border-color: #000;
   border-style: solid;
   font-family: 'Roboto';
   font-size: 13px;
