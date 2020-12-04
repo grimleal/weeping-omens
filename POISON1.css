@@ -1,0 +1,53 @@
+/***CODE AND TEMPLATE BY LUA***/
+
+.postbg {
+  height: 779px;
+  width: 429px;
+  border: var(--postcolor);
+}
+
+.postimg {
+  border: 2px solid var(--postcolor);
+  border-bottom: hidden;
+  border-width: 2px 2px 1px 2px;
+  background-color: yellow;
+  width: 429px;
+  height: 150px;
+  float: top;
+  top: 50px;
+  overflow: hidden;
+}
+
+.postbody {
+  width: 380px;
+  height: 350px;
+  padding-top: 15px;
+  padding-right: 24px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+  background-color: #fff;
+  background-image: url('https://i.ibb.co/f063gLW/grungewall50-1.png');
+  border-right: solid;
+  border-left: solid;
+  border-bottom: solid;
+  border-top: hidden;
+  border-color: var(--postcolor);
+  border-width: 2px;
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #000;
+  text-align: justify;
+  line-height: 12px;
+  overflow: auto;
+}
+
+.postbody b {
+  color: var(--postcolor);
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.postbody::-webkit-scrollbar {
+  width: 5px;
+}
