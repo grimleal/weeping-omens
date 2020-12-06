@@ -111,27 +111,3 @@ font-weight: 900;
   font-size: 15px;
 }
 
-.ludensinside a:link {
-  color: #424242;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.ludensinside a:visited {
-  color: #733939;
-  background-color: transparent;
-  text-decoration: none;
-  text-decoration: none;
-}
-
-.ludensinside a:hover {
-  color: #402020;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.ludensinside a:active {
-  color: #402020;
-  background-color: transparent;
-  text-decoration: none;
-}
