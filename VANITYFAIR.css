@@ -5,7 +5,7 @@
   border-radius: 10px 10px 10px 10px;
   box-shadow: 5px 5px 5px 5px #888888;
   overflow: hidden;
-  background-image: url(https://via.placeholder.com/430x300);
+  background-image: url('http://via.placeholder.com/430x300');
 }
 
 .tag {
