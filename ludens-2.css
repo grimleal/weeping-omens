@@ -66,7 +66,6 @@
   padding-top: 0px;
   padding-bottom: 0px;
   border-bottom: 3px solid;
-    transition: 0.75s;
 }
 
 .ludensinside h2 {
@@ -94,7 +93,7 @@
 font-weight: 900;
     padding-top: 15px;
   padding-bottom: 0px;
-  line-height: 99%;
+  line-height: 20px;
   }
 
 .ludensinside ul {
