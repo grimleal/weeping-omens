@@ -96,14 +96,6 @@ font-weight: 900;
   padding-bottom: 0px;
   line-height: 99%;
   }
-  
-.ludensinside h1:hover {
-  padding: 0 20px 0 0;
-  color: #BB0000;
-}
-.ludensimg:hover {
-  border-color:#BB0000
-}
 
 .ludensinside ul {
   margin: 0;
