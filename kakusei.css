@@ -75,3 +75,20 @@ overflow:hidden;
 .kakuseiBody::-webkit-scrollbar-thumb:hover {
   background: transparent;
 }
+.credit {
+  margin: 0px auto;
+  width: 300px;
+  text-align: right;
+  margin-right: 200px;
+  font-size: 15px;
+}
+.credit a:link {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+.credit a:visited {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
