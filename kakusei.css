@@ -1,0 +1,77 @@
+.kakuseiBG{
+  height: 390px;
+  width: 500px;
+  background-color: #fff;
+}
+.kakuseiRightSide{
+  width: 150px;
+  height: 390px;
+  overflow: hidden;
+  float: right;
+  position: relative;
+  z-index:10;
+}
+.kakuseiRightSide IMG {
+-webkit-filter:grayscale(100%);
+-webkit-transform:scale(1.15);
+}
+.kakuseiAccent {
+height:390px;
+width:150px;
+float:right;
+background-color: var(--postcolor);
+margin-right:-100px;
+opacity:.75;
+  z-index:-10;
+}
+.kakuseiImg {
+float:right;
+margin:25px;
+margin-left:200px;
+border: 2px solid #fff;
+  outline: 1px solid #fff;
+  outline-offset: -10px;
+height:320px;
+width:175px;
+overflow:hidden;
+  position: absolute;
+  z-index:10
+}
+.kakuseiBody {
+  width: 200px;
+    height: 380px;
+  float: left;
+  overflow: auto;
+ padding-top:5px;
+  padding-bottom:5px;
+  padding-left:25px;
+  padding-right: 5px;
+  background-color: #fff;
+  margin-left: -45px;
+  margin-top:px;
+  color: #000;
+  text-align: justify;
+  font-family: 'Noto Sans KR';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.kakuseiBody b {
+  color: var(--postcolor);
+  font-family: 'Noto Sans KR';
+  font-weight: 900;
+  font-size: 14px;
+}
+.kakuseiBody::-webkit-scrollbar {
+  width: 0px;
+}
+.kakuseiBody::-webkit-scrollbar-track {
+  background: transparent;
+}
+.kakuseiBody::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+.kakuseiBody::-webkit-scrollbar-thumb:hover {
+  background: transparent;
+}
