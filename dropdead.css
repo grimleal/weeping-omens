@@ -86,3 +86,15 @@
   font-family:'Quicksand';
   color: #810000;
 }
+.characters{
+ width:100px;
+  height:100px;
+  background:#e3e3e3;
+  margin-left: 420px;
+  margin-top: -170px;
+  text-align: justify;
+  font-family: 'Quicksand';
+  font-weight: 500;
+  font-size: 12px;
+  overflow: auto;
+}
