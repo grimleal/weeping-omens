@@ -66,7 +66,7 @@
   width: 150px;
   will-change: transform;
 }
-.body{
+.Body{
   width:400px;
   height:235px;
   background:#e3e3e3;
@@ -81,7 +81,7 @@
   font-size: 12px;
   overflow: auto;
 }
-.body b{
+.Body b{
   font-size: 15px;
   font-family:'Quicksand';
   color: #810000;
