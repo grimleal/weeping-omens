@@ -87,10 +87,10 @@
   color: #810000;
 }
 .dropdead .characters{
- width:150px;
+ width: 125px;
   height:100px;
   background:#e3e3e3;
-  margin-left: 420px;
+  margin-left: 450px;
   margin-top: -170px;
   text-align: justify;
   font-family: 'Quicksand';
@@ -98,4 +98,16 @@
   font-size: 10px;
   overflow: auto;
   line-height:10px;
+}
+.characters::-webkit-scrollbar {
+  width: 3px;
+}
+.characters::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.characters::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.characters::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
