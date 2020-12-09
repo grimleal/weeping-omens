@@ -5,13 +5,13 @@
   background: #e3e3e3;
   border-radius: 5px 100px 100px 5px;
 }
-.title{
+.dropdead .title{
   width: 600px;
   height: 100px;
   background: #333;
   border-radius: 5px 100px 0px 0px;
 }
- .name {
+ .dropdead .name {
     position: absolute;
     font-family: 'Do Hyeon';
     font-size: 70px;
@@ -22,10 +22,10 @@
     text-shadow: 0px 0px 1px 1px;;
    margin-top: 10px;
   }
-  .name span {
+ .dropdead .name span {
     color: #810000;
   }
-.deets {
+.dropdead .deets {
     font-family: 'Oswald';
   font-weight: 700;
     font-size: 15px;
@@ -38,7 +38,7 @@
     letter-spacing: 1px;
     line-height: 12px;
   }
-.img{
+.dropdead .img{
     width: 150px;
     height: 150px;
     float: right;
@@ -66,7 +66,7 @@
   width: 150px;
   will-change: transform;
 }
-.Body{
+.dropdead .body{
   width:400px;
   height:235px;
   background:#e3e3e3;
@@ -81,12 +81,12 @@
   font-size: 12px;
   overflow: auto;
 }
-.Body b{
+.dropdead .body b{
   font-size: 15px;
   font-family:'Quicksand';
   color: #810000;
 }
-.characters{
+.dropdead .characters{
  width:150px;
   height:100px;
   background:#e3e3e3;
