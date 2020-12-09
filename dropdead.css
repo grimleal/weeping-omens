@@ -87,7 +87,7 @@
   color: #810000;
 }
 .characters{
- width:100px;
+ width:150px;
   height:100px;
   background:#e3e3e3;
   margin-left: 420px;
@@ -95,6 +95,6 @@
   text-align: justify;
   font-family: 'Quicksand';
   font-weight: 500;
-  font-size: 12px;
+  font-size: 10px;
   overflow: auto;
 }
