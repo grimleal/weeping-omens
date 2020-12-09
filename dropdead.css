@@ -60,7 +60,7 @@
   content: "";
   height: 150px;
   position: absolute;
-  margin-top: -160px;
+  margin-top: -155px;
   margin-left:-80px;
   transform: translate3d(-50%, -50%, 0);
   width: 150px;
@@ -84,6 +84,5 @@
 .body b{
   font-size: 15px;
   font-family:'Quicksand';
-  font-weight: 500;
   color: #810000;
 }
