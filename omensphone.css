@@ -6,7 +6,7 @@
   border:2.5px solid silver;
   border-radius: 20px 20px 20px 20px;
   box-shadow: 10px 5px 25px 5px #999;
- background-color: #F3F3F3;
+ background-color: #333;
  margin: 10px auto;
 }
 #omensphone:before {
@@ -63,7 +63,7 @@
     color: #333;
     text-transform: capitalize;
     float: left;
-    margin-left: 10px;
+    margin-left: -195px;
 }
 .box {
  width: 350px;
