@@ -71,8 +71,7 @@
 .dropdead .body{
   width:400px;
   height:235px;
-  background:#999;
-  background-image: url('https://i.ibb.co/f063gLW/grungewall50-1.png');
+  background: transparent;
   margin-left: -200px;
   text-align: justify;
   font-family: 'Quicksand';
