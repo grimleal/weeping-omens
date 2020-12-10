@@ -1,0 +1,117 @@
+#omensphone {
+   width: 370px;
+ height: 550px;
+  border:2.5px solid silver;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 10px 5px 25px 5px #999;
+ background-color: #111;
+ margin: 10px auto;
+}
+#omensphone:before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 5px;
+  position: relative;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #999;
+  border-radius: 10px;
+}
+#omensphone:after {
+  content: '';
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: relative;
+  left: 50%;
+  bottom: -70px;
+  transform: translate(-50%, -50%);
+  background: #999;
+  border-radius: 50%;
+  z-index: 10px;
+}
+.inside {
+ width: 330px;
+ height: 450px;
+ margin: 0 auto;
+ position: relative;
+  border-radius: 10px 10px 10px 10px;
+ background: #e3e3e3;
+ top: 45px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.inside::-webkit-scrollbar {
+  width: 0px;
+}
+.inside::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.inside::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.inside::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+#omensphone header{
+     font-family: 'Do Hyeon';
+    font-size: 12px;
+    color: #000;
+    text-transform: capitalize;
+    float: left;
+    margin-left: 10px;
+}
+.box {
+ width: 350px;
+ height: 80px;
+  border-radius: 10px 10px 0px 0px;
+ background: #fff;
+ position: absolute;
+ top: 0px;
+ left: -10px;
+    position: -webkit-sticky; 
+  position: sticky;
+}
+
+.icon {
+ width: 100px;
+ height: 100px;
+  background-image: url('https://i.ibb.co/T0Rbqhz/epel3-1.png');
+  border: 5px solid #C4C4C4;
+  border-radius: 100%;
+ position: absolute;
+ top: 20px;
+ left: 10px;
+}
+
+.receiver {
+ width: 190px;
+ height: 40px;
+ font-size: 20px;
+  font-family: 'Oswald';
+  font-weight: 500;
+  text-transform: uppercase;
+ color: #000;
+ position: absolute;
+ top: 35px;
+ left: 145px;
+}
+.inside p {
+  width: 180px;
+ height: auto;
+ padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+ background: grey;
+ font-family: 'Verdana';
+ color: #FFFCF8;
+ text-align: justify;
+ margin-top: 20px;
+  margin-left: 120px;
+}
+.footer{
+  padding-top: 65px;
+  padding-left: 90px;
+  z-index: 10px;
+}
