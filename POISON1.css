@@ -50,3 +50,9 @@
 .postbody::-webkit-scrollbar {
   width: 5px;
 }
+.postbody a{
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-style: italic;
+}
