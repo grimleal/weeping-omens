@@ -33,5 +33,7 @@
 }
 .weepbody a{
   font-size: 15px;
-  text-transform: italic;
+  font-family: 'Roboto';
+  font-weight: 700;
+  text-style: italic;
 }
