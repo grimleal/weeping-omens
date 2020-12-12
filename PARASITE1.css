@@ -22,8 +22,21 @@
   text-align: justify;
     font-family: 'Roboto';
   font-size: 12px;
+  padding-right: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.postingbody1::-webkit-scrollbar {
+  width: 0px;
+}
+.postingbody1::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.postingbody1::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.postingbody1::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 .posting1body b {
   color: var(--postcolor);
