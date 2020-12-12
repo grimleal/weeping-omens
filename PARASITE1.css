@@ -26,16 +26,16 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.postingbody1::-webkit-scrollbar {
+.posting1body::-webkit-scrollbar {
   width: 0px;
 }
-.postingbody1::-webkit-scrollbar-track {
+.posting1body::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
-.postingbody1::-webkit-scrollbar-thumb {
+.posting1body::-webkit-scrollbar-thumb {
   background: #888;
 }
-.postingbody1::-webkit-scrollbar-thumb:hover {
+.posting1body::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
 .posting1body b {
