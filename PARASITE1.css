@@ -1,5 +1,5 @@
 #posting1{
-  width: 458px;
+  width: 465px;
   height: 385px;
   margin: auto;
   border: 3px solid var(--postcolor);
@@ -19,6 +19,7 @@
   height: 370px;
   overflow: auto;
   margin-left: 210px;
+  text-align: justify;
     font-family: 'Roboto';
   font-size: 12px;
   padding-top: 10px;
