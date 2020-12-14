@@ -72,7 +72,7 @@
   width:400px;
   height:235px;
   background: transparent;
-  margin: auto;
+  margin-left: -200px;
   text-align: justify;
   font-family: 'Quicksand';
   font-weight: 500;
