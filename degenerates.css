@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,900;1,300&display=swap');
 
 #degenerate {
@@ -66,4 +67,16 @@ text-align:right;
   text-decoration: none;
   float: right;
   margin: 0px 5px 0px 0px;
+}
+.luacred {
+font: 300 10px 'lato';
+text-transform:uppercase;
+letter-spacing:1px;
+  margin-left: 300px;
+  margin-top: -20px;
+}
+
+.luacred a {
+text-decoration:none;
+color:lightpink;
 }
