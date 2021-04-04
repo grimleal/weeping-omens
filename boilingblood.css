@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@400;700&display=swap');
+
+.b {
+  width: 550px;
+  height: 650px;
+  margin: auto;
+  background: #f7f7f7;
+  border-radius:53px;
+}
+.b h1 {
+   height: auto;
+  width: 160px;
+  background-color: var(--name2);
+  padding: 0 5px 0 6px;
+  border-radius: 10px;
+  color: #fff !important;
+  text-transform: uppercase;
+  font: 700 10px lato;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-right: 30px
+}
+.blyric1 {
+  width: 250px;
+  height: 20px;
+  border-radius: 0px 53px 0px 0px;
+  background: var(--name2);
+  margin-top: -650px;
+  margin-left: 200px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 20px;
+  font: 11px 'poppins';
+  text-transform: uppercase;
+  color: #f7f7f7;
+  overflow: hidden;
+}
+.bpost {
+  width: 250px;
+  height: 430px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #fdfdfd;
+    border: 1px solid #DDD;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 5px;
+  margin-left: 220px;
+  margin-top: 10px;
+  font: 300 12px 'poppins';
+  text-align: justify;
+  overflow: auto;
+}
+.blyric2 {
+  width: 250px;
+  height: 20px;
+  border-radius: 0px 0px 53px 0px;
+  background: var(--name2);
+  margin-left: 200px;
+  margin-top: 18px;
+   padding-bottom: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 20px;
+  font: 11px 'poppins';
+  text-transform: uppercase;
+  color: #f7f7f7;
+  overflow: hidden;
+}
+.bimg {
+  width: 250px;
+  height: 650px;
+}
+.bimg img {
+ border-radius: 50px 0 0 50px;
+}
