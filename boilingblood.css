@@ -80,3 +80,14 @@
 .bimg img {
  border-radius: 50px 0 0 50px;
 }
+.luacred {
+font: 300 10px 'lato';
+text-transform:uppercase;
+letter-spacing:1px;
+  margin-left: 300px;
+}
+
+.luacred a {
+text-decoration:none;
+color:lightpink;
+}
