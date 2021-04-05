@@ -61,6 +61,23 @@ clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 67%);
   overflow: auto;
   margin: auto;
 }
+}
+::-webkit-scrollbar {
+ width: 5px;
+ height: 5px;
+}
+::-webkit-scrollbar-thumb {
+ background: var(--custom);
+ border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover{
+ background: lightblue;
+}
+::-webkit-scrollbar-track{
+ background: #ffffff;
+ border-radius: 10px;
+ box-shadow: inset 7px 10px 12px #f0f0f0;
+}
 .info { 
   margin: 0 25px;
   background: #fbfbfb;
