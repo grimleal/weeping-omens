@@ -1,0 +1,94 @@
+.omens-ad-background {
+  width: 440px;
+  height: 650px;
+  padding-right:50px;
+  margin: auto;
+  background: white;
+  overflow: hidden; 
+}
+.omens-ad-background-image {
+  width: 200px;
+  height: 600px;
+  opacity: 0.3;
+  margin-top: -330px;
+  margin-left: 300px;
+  position: relative;
+}
+.omens-ad-background-image img {
+ width: 200px;
+  height: 200px;
+  margin-top: 210px;
+  transform: rotate(10deg);
+}
+.omens-ad-background-symbol {
+  width: 75px;
+  height: 75px;
+  margin: 5px;
+  display: flex;
+  place-items: center;
+  place-content: center;
+  text-align: center;
+  position: relative;
+}
+.omens-ad-background-symbol i {
+  color: var(--custom);
+  position: absolute;
+  bottom: 10px;
+  right: -5px;
+  font-size: 60px;
+}
+omens-ad-background-symbol2 {
+  width: 75px;
+  height: 75px;
+  position: relative;
+}
+.omens-ad-background-symbol2 i {
+  color: var(--custom);
+  position: absolute;
+  margin-top:500px;
+  margin-left: 415px;
+  font-size: 60px;
+  transform: rotate(-190deg);
+}
+.omens-ad-card {
+  width: 300px;
+  height: 500px;
+  border: 15px solid var(--custom);
+  border-radius: 5%;
+  margin-left: 80px;
+  margin-top: -300px;
+  background: #FFFDF4;
+clip-path: polygon(50% 0%, 100% 0, 100% 100%, 52% 100%, 34% 90%, 27% 80%, 13% 77%, 0 65%, 0 36%, 0 0);
+
+}
+.omens-ad-card img {
+  width: 300px;
+  height: 500px;
+}
+.omens-ad-card-logo {
+    padding: 15px;
+    width: 450px;
+   height: 150px;
+    color: #aaa;
+    font: 40px "open sans";
+  margin-top: -150px;
+  margin-left: 195px;
+    text-transform: uppercase;
+    text-align: justify;
+    position: absolute;
+  }
+  .omens-ad-card-logo b {
+    font: bold 45px "open sans";
+    color: var(--custom);
+}
+.omens-ad-card-sublogo {
+    width: 290px;
+    height: 250px;
+    font: bold 12px 'bitter';
+    color: var(--custom) !important;
+  text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+  margin-top: 25px;
+  margin-left: 100px;
+}
