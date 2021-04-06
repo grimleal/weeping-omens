@@ -4,13 +4,13 @@
     margin: auto;
     background: none;
   }
-  .omens-image {
+  .omens-ad-image {
     width: 500px;
     height: 550px;
     outline: 1px solid white;
     outline-offset: -10px;
   }
-  .omens-image img {
+  .omens-ad-image img {
     opacity: .4;
     width: 500px;
     height: 550px;
