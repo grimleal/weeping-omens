@@ -1,108 +1,107 @@
-  .omens-ad {
-    width: 500px;
-    height: 550px;
-    margin: auto;
-    background: #151515;
-  }
-  .omens-ad-image {
-    width: 500px;
-    height: 550px;
-    outline: 1px solid white;
-    outline-offset: -10px;
-  }
-  .omens-ad-image img {
-    opacity: .4;
-    width: 500px;
-    height: 550px;
-  }
-  .omens-ad-box {
-    width: 500px;
-    height: 550px;
-    background: none;
-    padding-top: 100px;
-  }
-  .omens-ad-title {
-    padding: 15px;
-    width: 450px;
-   height: 150px;
-    color: #aaa;
-    font: 50px "urban jungle";
-    text-align: justify;
-    position: absolute;
-    margin-top: -80px;
-    margin-left: 40px;
-    z-index: 5;
-  }
-  .omens-ad-title b {
-    font: 55px "urban jungle";
-    color: var(--custom);
-  }
-  .omens-ad-title a {
-    color: #aaa;
-  }
-  .omens-ad-infobox {
-    width: 460px;
-    height: 270px;
-    margin-top: -360px;
-    margin-left: 20px;
-    position: absolute;
-    z-index: 5;
-  background-color: rgba(255, 255, 255, 0.2); 
-  color: rgba(255, 255, 255, 0.2);
-    border-radius: 5px;
-  }
-  .omens-ad-info {
-    width: 400px;
-    height: 250px;
-    font: bold 15px 'bitter';
-    color: #fff !important;
-    text-align: justify;
-    position: absolute;
-    margin-top: -350px;
-    margin-left: 50px;
-    z-index: 5;
-  }
-  a:link {
-    color: none;
-    text-decoration: none;
-  }
-  a:visited {
-    color: none;
-    text-decoration: none;
-  }
-  a:hover {
-    color: none;
-    text-decoration: none;
-  }
-  a:active {
-    color: none;
-    text-decoration: none;
-  }
-  .omens-ad-link {
-    width: 400px;
-    height: 250px;
-    font: bold 15px 'bitter';
-    color: #fff !important;
-    text-align: center;
-    position: absolute;
-    margin-top: -500px;
-    margin-left: 30px;
-    z-index: 5;
-  }
-  .omens-ad-link a {
-    color: #fff !important;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-  .omens-ad-link2 {
-    width: 400px;
-    height: 250px;
-    font: bold 11px 'bitter';
-    color: #fff !important;
-    text-align: left;
-    position: absolute;
-    margin-top: -470px;
-    margin-left: 135px;
-    z-index: 5;
-  }
-  
+.omens-ad {
+  width: 500px;
+  height: 550px;
+  margin: auto;
+  background: #151515;
+}
+.omens-ad-image {
+  width: 500px;
+  height: 550px;
+  outline: 1px solid white;
+  outline-offset: -10px;
+}
+.omens-ad-image img {
+  opacity: .7;
+  width: 500px;
+  height: 550px;
+}
+.omens-ad-box {
+  width: 500px;
+  height: 550px;
+  background: none;
+  padding-top: 100px;
+}
+.omens-ad-title {
+  padding: 15px;
+  width: 500px;
+ height: 150px;
+  color: #aaa;
+  font: 60px "urban jungle";
+  text-align: justify;
+  position: absolute;
+  margin-top: -90px;
+  margin-left: 5px;
+  z-index: 5;
+}
+.omens-ad-title b {
+  font: 65px "urban jungle";
+  color: var(--custom);
+}
+.omens-ad-title a {
+  color: #aaa;
+}
+.omens-ad-infobox {
+  width: 460px;
+  height: 345px;
+  margin-top: -440px;
+  margin-left: 20px;
+  position: absolute;
+  z-index: 5;
+background-color: rgba(255, 255, 255, 0.1); 
+color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+.omens-ad-info {
+  width: 400px;
+  height: 250px;
+  font: bold 15px 'open sans';
+  color: #fff !important;
+  text-align: justify;
+  position: absolute;
+  margin-top: -415px;
+  margin-left: 50px;
+  z-index: 5;
+}
+a:link {
+  color: none;
+  text-decoration: none;
+}
+a:visited {
+  color: none;
+  text-decoration: none;
+}
+a:hover {
+  color: none;
+  text-decoration: none;
+}
+a:active {
+  color: none;
+  text-decoration: none;
+}
+.omens-ad-link {
+  width: 400px;
+  height: 250px;
+  font: bold 15px 'bitter';
+  color: #fff !important;
+  text-align: center;
+  position: absolute;
+  margin-top: -500px;
+  margin-left: 30px;
+  z-index: 5;
+}
+.omens-ad-link a {
+  color: #fff !important;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.omens-ad-link2 {
+  width: 400px;
+  height: 250px;
+  font: bold 11px 'bitter';
+  color: #fff !important;
+  text-align: left;
+  position: absolute;
+  margin-top: -470px;
+  margin-left: 135px;
+  z-index: 5;
+}
