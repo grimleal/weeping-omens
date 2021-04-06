@@ -1,12 +1,12 @@
-.omens-ad-background {
-    width: 430px;
+.omens-card-ad-background {
+    width: 440px;
     height: 650px;
     padding-right:50px;
     margin: auto;
     background: white;
     overflow: hidden; 
   }
-  .omens-ad-background-image {
+  .omens-card-ad-background-image {
     width: 200px;
     height: 600px;
     opacity: 0.4;
@@ -14,7 +14,7 @@
     margin-left: 200px;
     position: relative;
   }
-  .omens-ad-background-image img {
+  .omens-card-ad-background-image img {
    width: 300px;
     height: 300px;
     margin-top: 210px;
@@ -36,7 +36,7 @@
       text-decoration: none;
       text-transform: uppercase;
     }
-  .omens-ad-background-symbol {
+  .omens-card-ad-background-symbol {
     width: 75px;
     height: 75px;
     display: flex;
@@ -45,19 +45,19 @@
     text-align: center;
     position: relative;
   }
-  .omens-ad-background-symbol i {
+  .omens-card-ad-background-symbol i {
     color: var(--custom);
     position: absolute;
     bottom: 10px;
     right: -5px;
     font-size: 60px;
   }
-  omens-ad-background-symbol2 {
+  omens-card-ad-background-symbol2 {
     width: 75px;
     height: 75px;
     position: relative;
   }
-  .omens-ad-background-symbol2 i {
+  .omens-card-ad-background-symbol2 i {
     color: var(--custom);
     position: absolute;
     margin-top:500px;
@@ -65,7 +65,7 @@
     font-size: 60px;
     transform: rotate(-190deg);
   }
-  .omens-ad-card {
+  .omens-card-ad-card {
     width: 300px;
     height: 500px;
     border: 15px solid var(--custom);
@@ -75,11 +75,11 @@
     position: absolute;
     background: #FFFDF4;
   }
-  .omens-ad-card img {
+  .omens-card-ad-card img {
     width: 300px;
     height: 500px;
   }
-  .omens-ad-card-logo {
+  .omens-card-ad-card-logo {
       padding: 15px;
       width: 550px;
      height: 150px;
@@ -91,7 +91,7 @@
       text-align: justify;
       position: absolute;
     }
-    .omens-ad-card-logo b {
+    .omens-card-ad-card-logo b {
       font: bold 75px "urban jungle";
       color: var(--custom);
   }
