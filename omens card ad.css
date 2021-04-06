@@ -20,7 +20,7 @@
     margin-top: 210px;
     transform: rotate(10deg);
   }
-    .omens-ad-link {
+    .omens-card-ad-link {
       width: 400px;
       height: 250px;
       font: bold 11px 'bitter';
@@ -31,7 +31,7 @@
       margin-left: 30px;
       z-index: 5;
     }
-    .omens-ad-link a {
+    .omens-card-ad-link a {
       color: var(--custom) !important;
       text-decoration: none;
       text-transform: uppercase;
