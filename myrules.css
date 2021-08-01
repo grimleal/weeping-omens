@@ -15,42 +15,9 @@
     width: 698px;
     z-index: 5;
     opacity: 1;
+ background-image: url("https://i.ibb.co/j4zSdj5/light-spots2.png");
     background-position: center;
     background-attachment: fixed;
-  }
-  .rules-title {
-    z-index: 2;
-    position: absolute;
-    padding: 50px;
-    width: 250px;
-    text-align: center;
-    margin-top: 100px;
-    margin-left: 30px;
-    font: bold 20px Hind;
-    line-height: 15px;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    transition: 0.7s all;
-    opacity: 1;
-    pointer-events: none;
-  }
-  .rules-title div {
-    text-transform: lowercase;
-    font: 800 85px Playfair Display;
-    line-height: 75px;
-    padding-bottom: 20px;
-    letter-spacing: -1px;
-    padding-right: 9px;
-    background: linear-gradient(
-      to bottom,
-      var(--accentColor),
-      var(--accentColor2)
-    );
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    position: relative;
-    z-index: 2;
   }
   .rules-color {
     position: absolute;
@@ -65,10 +32,6 @@
     clip-path: polygon(28% 0, 100% 0%, 100% 100%, 75% 100%);
     margin-left: 300px;
     opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: 0.9s ease-in-out;
-    transition: 0.9s ease-in-out;
   }
   #rules-0 {
     height: 668px;
@@ -83,59 +46,38 @@
     z-index: 3;
     border-radius: 15px;
     margin-top: -20px;
-    margin-left: 550px;
-    -webkit-transition: padding 2s;
-    opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: .s ease-in-out;
-    transition: 0.9s ease-in-out;
-  }
-  #rules-0:hover .rules-img {
-    opacity: 1;
-    transition: 0.7s;
     margin-left: -50px;
-  }
-  #rules-0:hover .scrum-color {
     opacity: 1;
-    transition: 0.7s;
-  }
-  .rules-post:hover {
-    opacity: 1;
-    transition: 0.9s;
   }
   .rules-post {
     border-radius: 5px;
     position: absolute;
-    z-index: 3;
     margin: 30px 0px 0px 25px;
     padding: 33px;
+    z-index:4;
     border: solid 1px var(--borderColor);
     overflow: hidden;
     height: 420px;
     width: 250px;
-    background-color: rgba(0, 0, 0);
-    color: rgba(0, 0, 0, 0.8);
+    background-color: #202020;
     font: 300 15px Roboto;
     line-height: 22px;
     color: #fff;
     text-align: justify;
-    -webkit-transition: padding 2s;
     opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: 0.9s ease-in-out;
-    transition: 0.9s ease-in-out;
-    opacity: 0;
   }
   .rules-post b {
     font: 300 17px/18px roboto;
     color: var(--accentColor);
   }
-  h1 {
+.rules-post h1 {
     line-height: 15px;
     width: auto;
-    background-color: var(--accentColor);
+    background: linear-gradient(
+      to right,
+      var(--accentColor),
+      var(--accentColor2)
+    );
     padding: 15px;
     border-radius: 5px;
     text-color: #fff !important;
