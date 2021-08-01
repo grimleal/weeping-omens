@@ -1,0 +1,160 @@
+.scrum {
+    border: solid 1px var(--borderColor);
+    border-radius: 5px;
+    width: 600px;
+    height: 502px;
+    margin: 12px auto;
+    background-color: #1b1b1b;
+    position: relative;
+    overflow: hidden;
+    color: var(--textColor);
+  }
+  .scrumbackground{
+    position: absolute;
+    height: 658px;
+    width: 698px;
+    z-index: 5;
+    opacity: 1;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .scrum-color {
+    position: absolute;
+    z-index: 1;
+    height: 700px;
+    width: 300px;
+    background: linear-gradient(
+      to bottom,
+      var(--accentColor),
+      var(--accentColor2)
+    );
+  clip-path: polygon(28% 0, 100% 0%, 100% 100%, 75% 100%);
+  
+    margin-left: 360px;
+    opacity: 1;
+     -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: .9s ease-in-out;
+      transition: .9s ease-in-out;
+  }
+  .scrum-back {
+    position: absolute;
+    height: 658px;
+    width: 698px;
+    opacity: 0.5;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  #scrum-0 {
+    height: 668px;
+    width: 668px;
+  }
+  .scrum-img {
+    border: 15px solid #1b1b1b;
+    height: 400px;
+    width: 200px;
+    position: absolute;
+    overflow: hidden;
+    float: left;
+    z-index: 3;
+      border-radius: 15px;
+    margin-top: 35px;
+    margin-left: 360px;
+    -webkit-transition: padding 2s;
+    opacity: 1;
+    -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: .s ease-in-out;
+      transition: .9s ease-in-out;
+  }
+  .scrum-post:hover{
+      opacity: 1;
+    transition: 0.3s;
+  }
+  .scrum-post {
+    border-radius: 5px;
+    position: absolute;
+    z-index: 3;
+    margin:30px 0px 0px 25px;
+    padding: 43px;
+    border: solid 1px var(--borderColor);
+    overflow: auto;
+    height: 350px;
+    width: 250px;
+  background-color: rgba(0, 0, 0); 
+  color: rgba(0, 0, 0, 0.8);
+    font: 300 13px Roboto;
+    line-height: 22px;
+    color: #fff;
+    text-align: justify;
+    -webkit-transition: padding 2s;
+    opacity: 1;
+    -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+    opacity: 1;
+  }
+  .scrum-post b {
+    font:300 17px/18px roboto;
+    color: var(--accentColor);
+  }
+  h1 {
+      line-height: 15px;
+      width:auto;
+      background-color:var(--accentColor);
+    padding: 15px;
+      border-radius:5px;
+      text-color:#fff!important;
+      text-transform:lowercase;
+      text-decoration:none;
+      text-align:center;
+      margin-left:25px;
+      margin-right:30px;
+  }
+  .scrum-post a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  ::-webkit-scrollbar{
+  width: 0px;
+  height: 0px;
+  }
+  ::-webkit-scrollbar-thumb{
+  background: #B3AFB3;
+  border-radius: 0px;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+  background: #B3AFB3;
+  }
+  ::-webkit-scrollbar-track{
+  background: rgba(0, 0, 0); 
+  color: rgba(0, 0, 0, 0.8);
+  border-radius: 0px;
+  box-shadow: inset 0px 0px 0px 0px #F0F0F0;
+  }
+  .scrum-tab {
+    display: block;
+    position: absolute;
+    z-index: 20;
+    margin: 0px 0px 0px 265px;
+    cursor: pointer;
+    mix-blend-mode: lighten;
+  }
+  .scrum-tab div {
+    height: 6px;
+    width: 6px;
+    background-color: var(--textColor);
+    border-radius: 100%;
+    border: solid 5px #1b1b1b;
+    transition: 0.7s all;
+    margin-top: 30px;
+    transition-delay: 0s;
+  }
+    .luacred{font:300 10px playfair display;text-transform:uppercase;letter-spacing:1px;margin-left:250px;}
+    
+    .luacred a{
+      text-decoration:none;
+      color:pink;
+    }
