@@ -1,0 +1,138 @@
+.scrum {
+  position: relative;
+  width: 520px;
+  z-index: 10;
+  margin: 0 auto;
+  background: #1b1b1b;
+  overflow: hidden;
+  color: #6a6a6a;
+  padding: 50px;
+  padding-right: 80px;
+  padding-left: 80px;
+  border-radius: 5px;
+}
+.scrum .scrum-img {
+  width: 200px;
+  height: 400px;
+  border: 15px solid #1b1b1b;
+  border-radius: 5px;
+  position: relative;
+  right: -330px;
+}
+.scrum .scrum-img img {
+  filter: contrast(120%);
+}
+.scrum .scrum-color {
+  position: absolute;
+  z-index: -1;
+  height: 555px;
+  width: 250px;
+  background: linear-gradient(
+    to bottom,
+    var(--accentColor),
+    var(--accentColor2)
+  );
+  clip-path: polygon(28% 0, 100% 0%, 100% 100%, 75% 100%);
+  margin-top: -500px;
+  margin-left: 350px;
+  opacity: 1;
+}
+.scrum .scrum-body {
+  border: solid 1px #606060;
+  border-radius: 3px;
+  font: 400 14px/18px "Roboto";
+  color: #aaa;
+  text-align: justify;
+  margin-top: 10px;
+  width: 270px;
+  height: 370px;
+  overflow: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  margin-left: -30px;
+  margin-top: -430px;
+  background-color: #222;
+}
+.scrum .scrum-body ::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+.scrum .scrum-body ::-webkit-scrollbar-thumb {
+  background: #b3afb3;
+  border-radius: 0px;
+}
+.scrum .scrum-body ::-webkit-scrollbar-thumb:hover {
+  background: #b3afb3;
+}
+.scrum .scrum-body ::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0);
+  color: rgba(0, 0, 0, 0.8);
+  border-radius: 0px;
+  box-shadow: inset 0px 0px 0px 0px #f0f0f0;
+}
+.scrum .scrum-body b {
+  color: var(--accentColor);
+  font: italic 300 15px "montserrat";
+}
+
+.scrum .scrum-body b i,
+.scrum .scrum-body u i,
+.scrum .scrum-body span i {
+  color: revert;
+  font-weight: revert;
+}
+
+.scrum .scrum-body i {
+  font: 500 12px/18px montserrat;
+  font-style: italic;
+  color: #ddd;
+}
+.scrum .scrum-body c {
+  color: var(--accentColor);
+  font: italic 300 15px "montserrat";
+}
+.scrum .scrum-body span {
+  color: var(--accentColor);
+}
+.scrum .scrum-body u {
+  text-decoration: none;
+  background: var(--accentColor);
+  color: #222;
+  padding: 0px 3px;
+}
+.scrum .scrum-body h1 {
+  line-height: 15px;
+  width: auto;
+  padding: 15px;
+  border-radius: 5px;
+  margin-left: 25px;
+  margin-right: 30px;
+  margin-top: 40px;
+  text-color: #fff !important;
+  text-transform: lowercase;
+  text-decoration: none;
+  text-align: center;
+}
+.scrum .scrum-body h1 a {
+  text-align: center;
+  background-color: var(--accentColor);
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff;
+}
+.scrum .scrum-body a {
+  text-decoration: none;
+  color: white;
+}
+.luacred {
+  font: 300 10px 'Montserrat Alternates';
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.luacred a {
+  text-decoration: none;
+  color: pink;
+}
