@@ -1,0 +1,110 @@
+.omens-post-19 {
+    margin:20px auto;
+  width:500px;
+  position:relative;
+  overflow:auto;
+}
+.omens-post-19 .post-icon {
+   width:150px;
+  height:150px;
+  margin-right:5px;
+  position:relative;
+  top:0px;
+  left:0px;
+  background: var(--custom);
+}
+.omens-post-19 .post-icon img {
+  width: 150px;
+  height: 150px;
+    filter: grayscale(100%);
+  mix-blend-mode: luminosity;
+}
+.omens-post-19 .lyric-back {
+  width:295px;
+  height:110px;
+  background:	#0d0d0d;
+  padding: 25px;
+  color:#d9d9d9;
+  position:absolute;
+  top:-10px;
+  right:0px;
+}
+.omens-post-19 .lyric-1 {
+  font: italic 20px/18px 'Bitter';
+  letter-spacing:5px;
+  text-transform:uppercase;
+  text-align:center;
+  display: block;
+}
+.omens-post-19 .lyric-2 {
+  font:bold 12px/100% 'Montserrat';
+  padding-top: 10px;
+  margin-top: 10px;
+  text-align: center;
+  color: var(--custom);
+  display: block;
+}
+.omens-post-19 .post-body {
+  position: relative;
+  top: 5px;
+  width:450px;
+  padding: 25px;
+  padding-bottom: 40px;
+  text-align:justify;
+  background:#0d0d0d;
+  color:	#9f9f9f;
+  font: 13px/18px 'roboto';
+}
+.omens-post-19 .post-body b {
+  color: var(--custom);
+  font: 300 15px 'montserrat';
+}
+
+.omens-post-19 .post-body b i,
+.omens-post-19 .post-body u i,
+.omens-post-19 .post-body span i {
+  color: revert;
+  font-weight: revert;
+}
+
+.omens-post-19 .post-body i {
+  font: 500 12px/18px montserrat;
+  font-style: italic;
+  color: #ddd;
+}
+.omens-post-19 .post-body c {
+    color: var(--custom);
+  font: italic 300 15px 'montserrat';
+}
+.omens-post-19 .post-body span {
+  color: var(--custom);
+}
+.omens-post-19 .post-body u {
+  text-decoration: none;
+  background: var(--custom);
+  color: #222;
+  padding: 0px 3px;
+}
+.omens-post-19 .post-body tagged {
+  gap:10px;
+  font: bold 300 15px/100% 'Roboto';
+  text-transform: uppercase;
+  color:#ddd;
+  height: 25px;
+  width: 30;
+   gap:0px 10px;
+}
+.omens-post-19 .post-body tagged a {
+  margin-top: 10px;
+      background-color: var(--custom);
+    border-radius:1px;
+  float: right;
+  padding:5px;
+  color:#fff;;
+}
+.omens-post-19 .post-body a {
+  text-decoration: none;
+  color: white;
+}
+
+  
